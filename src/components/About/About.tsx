@@ -1,17 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import Michael_Clinton from "../../assets/Michael Clinton.webp";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -19,36 +7,38 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>About Me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Michael, an enthusiastic Software Engineer specializing in the MERN stack (MongoDB, Express.js, React, Node.js) and scalable software solutions.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={200} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I build responsive and dynamic web applications leveraging the MERN stack to create efficient, scalable, and user-friendly solutions.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={300}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            My expertise includes creating robust APIs, designing front-end interfaces with React, and managing back-end systems with Node.js and MongoDB.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h4>Batchelor of Science (Computer Science)</h4>
+            <p>Naginadas Khandwala College, Mumbai | July 2023 - Present</p>
+            <p>8.95 CGPA</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+            <h3>Experience:</h3>
+            <h4>Technical Support Engineer</h4>
+            <p>Teleperformance Global Services | July 2022 - Present</p>
+            <p>Mumbai, India</p>
           </div>
         </ScrollAnimation>
 
@@ -56,68 +46,35 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={python} alt="python" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
-              <img src={java} alt="java" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={cssIcon} alt="Css" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
-          </div>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <p>• JavaScript - Building interactive and dynamic front-end applications.</p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+            <p>• React - Developing responsive and scalable front-end solutions.</p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+            <p>• Node.js - Crafting robust server-side applications.</p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
+            <p>• MongoDB - Managing data effectively with NoSQL databases.</p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
+            <p>• Express.js - Creating efficient and RESTful APIs.</p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+            <p>• Spring Boot - Developing REST APIs for web applications.</p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.22 * 1000}>
+            <p>• HTML & CSS - Crafting visually appealing and accessible user interfaces.</p>
+          </ScrollAnimation>
         </div>
       </div>
+
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={Michael_Clinton} alt="Michael Clinton" />
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }

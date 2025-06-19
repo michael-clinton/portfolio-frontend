@@ -1,92 +1,125 @@
 import styled from "styled-components";
 
-
 export const Container = styled.section`
   margin-top: 15rem;
-  
-  h2{
+
+  h2 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
+    color: #fff;
   }
-  .projects{
+
+  .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 2rem;
+    grid-gap: 2rem;
     padding: 1rem;
     overflow: hidden;
 
-    .project{
+    .project {
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
-      transition: 0.25s;
+      transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
       display: flex;
       flex-direction: column;
       height: 100%;
-      color: #FFF;
-      &:hover{
-        transform: translateY(-5px);
+      color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      &:hover {
+        transform: translateY(-8px);
         background-color: var(--pink);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
       }
 
-      header{
+      header {
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
         margin-bottom: 3.6rem;
-        .project-links{
+
+        .project-links {
           display: flex;
           align-items: center;
           gap: 1rem;
         }
+
         a > img {
-          width: 5.0rem;
+          width: 4.5rem;
+          transition: transform 0.2s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
         }
       }
-      
-      h3{
-        margin-bottom: 2rem;
+
+      h3 {
+        margin-bottom: 1.5rem;
+        font-size: 2.2rem;
+        color: var(--green);
       }
 
-      p{
+      p {
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
-        a{
-          color: #FFFF;
+        color: #e0e0e0;
+
+        a {
+          color: #fff;
           border-bottom: 1px solid var(--green);
-          transition: color 0.25s;
-          &:hover{
+          transition: color 0.25s ease;
+          &:hover {
             color: var(--green);
           }
         }
       }
 
-      footer{
+      footer {
         margin-top: auto;
-        .tech-list{
+
+        .tech-list {
           display: flex;
           align-items: center;
-          gap: 2rem;
+          gap: 1.5rem;
           font-size: 1.4rem;
-          opacity: 0.6;
+          opacity: 0.8;
         }
       }
-
     }
   }
 
-  @media (max-width: 960px){
-    .projects{
+  @media (max-width: 960px) {
+    .projects {
       grid-template-columns: 1fr 1fr;
     }
   }
 
-  @media (max-width: 740px){
-    .projects{
+  @media (max-width: 740px) {
+    .projects {
       grid-template-columns: 1fr;
     }
+
+    .project {
+      padding: 1.5rem 1.2rem;
+
+      header a > img {
+        width: 4rem;
+      }
+
+      h3 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+      }
+
+      .tech-list {
+        font-size: 1.2rem;
+      }
+    }
   }
-`
+`;
