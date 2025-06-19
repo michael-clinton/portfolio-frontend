@@ -30,7 +30,7 @@ export function Hero() {
           </BrowserRouter>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-      <div className="social-media"><a
+      {/* <div className="social-media"><a
         href="https://www.linkedin.com/in/codevinayak"
         target="_blank"
         rel="noreferrer"
@@ -57,7 +57,8 @@ export function Hero() {
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a></div>
+        </a></div> */}
+
         </ScrollAnimation>
       </div>
       <div className="hero-image">
