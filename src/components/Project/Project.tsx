@@ -36,7 +36,11 @@ export function Project() {
                 >
                   <img src={githubIcon} alt="GitHub" />
                 </a>
+                <a href="https://ecom-frontend-platform.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
               </div>
+                
             </header>
             <div className="body">
               <h3>Ecommerce Platform</h3>
@@ -132,10 +136,10 @@ export function Project() {
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <div className="project-links">
-                <a href="https://drrohitdamor.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
+                  <a href="https://codenest-blog-frontend-tirb.vercel.app/" target="_blank" rel="noreferrer">
+                    <img src={externalLink} alt="Visit site" />
+                  </a>
+                </div>
               </div>
             </header>
             <div className="body">
