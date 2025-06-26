@@ -49,6 +49,7 @@ export const Container = styled.header`
         background-color: var(--pink);
         border-radius: 0.4rem;
         font-weight: 400; /* Slightly thicker for button contrast */
+        color: #fff;
       }
 
       &:hover {
@@ -177,6 +178,35 @@ export const Container = styled.header`
       a.button {
         background-color: var(--pink);
         margin-top: 2rem;
+      }
+    }
+  }
+
+  /* ✅ Light Mode Overrides */
+  html.light & {
+    .logo {
+      color: #000;
+
+      span {
+        color: #000;
+      }
+    }
+
+    nav a {
+      color: #000;
+
+      &.button {
+        color: #fff;
+        background-color: var(--pink);
+      }
+    }
+
+    .menu {
+      background: #000;
+
+      &:before,
+      &:after {
+        background: #000;
       }
     }
   }
