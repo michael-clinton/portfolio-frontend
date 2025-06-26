@@ -184,7 +184,7 @@ export const Container = styled.header`
 
   /* ✅ Light Mode Styles */
   html.light & {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0;
 
     .logo {
       color: #000;
@@ -218,7 +218,7 @@ export const Container = styled.header`
 
     @media (max-width: 960px) {
       nav {
-        background: #f0f0f0; /* Light gray mobile menu */
+        background: rgb(145, 139, 139);
       }
     }
   }
