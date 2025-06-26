@@ -20,6 +20,7 @@ export const Container = styled.header`
     font-family: 'Red Hat Display', sans-serif;
     color: #fff;
     font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-weight: 300;
     gap: 0.4rem;
     white-space: nowrap;
 
@@ -37,7 +38,7 @@ export const Container = styled.header`
       color: #fff;
       padding: 0.5rem 0.8rem;
       font-family: 'Red Hat Display', sans-serif;
-      font-weight: 500;
+      font-weight: 300;
       text-transform: uppercase;
       font-size: clamp(1.1rem, 1.5vw, 1.4rem);
       transition: filter 0.25s ease;
@@ -47,6 +48,7 @@ export const Container = styled.header`
         padding: 0.6rem 1.8rem;
         background-color: var(--pink);
         border-radius: 0.4rem;
+        font-weight: 400; /* Slightly thicker for button contrast */
       }
 
       &:hover {
