@@ -123,7 +123,7 @@ export function Project() {
                 <a href="https://github.com/CodeVinayak/Box-Office" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="https://shelooks15-boxoffice.netlify.app/" target="_blank" rel="noreferrer">
+                <a href="https://box-office-app-delta.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
@@ -155,7 +155,7 @@ export function Project() {
                 <a href="https://github.com/CodeVinayak/TicTacToe" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="https://shelooks15-tictactoe.netlify.app/" target="_blank" rel="noreferrer">
+                <a href="https://tic-tac-toe-flame-five-50.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
