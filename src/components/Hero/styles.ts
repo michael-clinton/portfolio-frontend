@@ -18,7 +18,7 @@ export const Container = styled.section`
 
     h1 {
       font-size: 7rem;
-      font-weight: 300;
+      font-weight: 700; /* made bold again */
       color: #fff;
     }
 
