@@ -48,7 +48,7 @@ export const Container = styled.header`
         padding: 0.6rem 1.8rem;
         background-color: var(--pink);
         border-radius: 0.4rem;
-        font-weight: 400; /* Slightly thicker for button contrast */
+        font-weight: 400;
         color: #fff;
       }
 
@@ -182,8 +182,10 @@ export const Container = styled.header`
     }
   }
 
-  /* ✅ Light Mode Overrides */
+  /* ✅ Light Mode Styles */
   html.light & {
+    background-color: #f0f0f0; /* Light gray background */
+
     .logo {
       color: #000;
 
@@ -199,6 +201,10 @@ export const Container = styled.header`
         color: #fff;
         background-color: var(--pink);
       }
+
+      &:hover {
+        filter: brightness(0.8);
+      }
     }
 
     .menu {
@@ -207,6 +213,12 @@ export const Container = styled.header`
       &:before,
       &:after {
         background: #000;
+      }
+    }
+
+    @media (max-width: 960px) {
+      nav {
+        background: #f0f0f0; /* Light gray mobile menu */
       }
     }
   }
