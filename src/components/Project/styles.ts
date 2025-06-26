@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 15rem;
   padding: 0 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300;
 
   h2 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
     color: #fff;
+    font-weight: 300;
 
     @media (max-width: 480px) {
       font-size: 2.8rem;
@@ -34,6 +37,7 @@ export const Container = styled.section`
     height: 100%;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
 
     &:hover {
       transform: translateY(-8px);
@@ -84,6 +88,7 @@ export const Container = styled.section`
       margin-bottom: 1.5rem;
       font-size: 2.2rem;
       color: var(--green);
+      font-weight: 300;
 
       @media (max-width: 480px) {
         font-size: 1.8rem;
@@ -95,6 +100,7 @@ export const Container = styled.section`
       margin-bottom: 2rem;
       color: #e0e0e0;
       font-size: 1.5rem;
+      font-weight: 300;
 
       @media (max-width: 480px) {
         font-size: 1.3rem;
@@ -121,6 +127,7 @@ export const Container = styled.section`
         font-size: 1.4rem;
         opacity: 0.8;
         color: #b0b0b0;
+        font-weight: 300;
 
         @media (max-width: 480px) {
           font-size: 1.2rem;
