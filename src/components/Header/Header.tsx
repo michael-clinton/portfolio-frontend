@@ -3,15 +3,19 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../../assets/Michael-Clinton-Resume.pdf'
+
 export function Header() {
   const [isActive, setActive] = useState(false)
+
   function toggleTheme() {
     let html = document.getElementsByTagName('html')[0]
     html.classList.toggle('light')
   }
+
   function closeMenu() {
     setActive(false)
   }
+
   return (
     <Container className="header-fixed">
       <Router>
@@ -19,6 +23,8 @@ export function Header() {
           <span>{"<Michael "}</span>
           <span>{" Clinton/>"}</span>
         </HashLink>
+
+        {/* 
         <input
           onChange={toggleTheme}
           className="container_toggle"
@@ -26,7 +32,9 @@ export function Header() {
           id="switch"
           name="mode"
         />
-        <label htmlFor="switch">Toggle</label>
+        <label htmlFor="switch">Toggle</label> 
+        */}
+
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
@@ -44,6 +52,7 @@ export function Header() {
             Resume
           </a>
         </nav>
+
         <div
           aria-expanded={isActive ? 'true' : 'false'}
           aria-haspopup="true"
