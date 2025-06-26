@@ -2,49 +2,64 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 15rem;
+  padding: 0 1rem;
 
   h2 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
     color: #fff;
+
+    @media (max-width: 480px) {
+      font-size: 2.8rem;
+    }
   }
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
     padding: 1rem;
-    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-    .project {
-      padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
-      border-radius: 1.2rem;
-      transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  .project {
+    padding: 2rem 1.8rem;
+    background-color: #2b2b2b;
+    border-radius: 1.2rem;
+    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      transform: translateY(-8px);
+      background-color: var(--pink);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    header {
       display: flex;
-      flex-direction: column;
-      height: 100%;
-      color: #fff;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      align-items: center;
+      justify-content: space-between;
+      color: var(--blue);
+      margin-bottom: 3.6rem;
 
-      &:hover {
-        transform: translateY(-8px);
-        background-color: var(--pink);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      svg {
+        flex-shrink: 0;
       }
 
-      header {
+      .project-links {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        color: var(--blue);
-        margin-bottom: 3.6rem;
+        gap: 1rem;
 
-        .project-links {
-          display: flex;
+        a {
+          display: inline-flex;
           align-items: center;
-          gap: 1rem;
         }
 
         a > img {
@@ -53,72 +68,63 @@ export const Container = styled.section`
           &:hover {
             transform: scale(1.1);
           }
-        }
-      }
 
-      h3 {
-        margin-bottom: 1.5rem;
-        font-size: 2.2rem;
-        color: var(--green);
-      }
-
-      p {
-        letter-spacing: 0.12rem;
-        margin-bottom: 2rem;
-        color: #e0e0e0;
-
-        a {
-          color: #fff;
-          border-bottom: 1px solid var(--green);
-          transition: color 0.25s ease;
-          &:hover {
-            color: var(--green);
+          @media (max-width: 480px) {
+            width: 3.5rem;
           }
         }
       }
+    }
 
-      footer {
-        margin-top: auto;
+    .body {
+      flex-grow: 1;
+    }
 
-        .tech-list {
-          display: flex;
-          align-items: center;
-          gap: 1.5rem;
-          font-size: 1.4rem;
-          opacity: 0.8;
+    h3 {
+      margin-bottom: 1.5rem;
+      font-size: 2.2rem;
+      color: var(--green);
+
+      @media (max-width: 480px) {
+        font-size: 1.8rem;
+      }
+    }
+
+    p {
+      letter-spacing: 0.12rem;
+      margin-bottom: 2rem;
+      color: #e0e0e0;
+      font-size: 1.5rem;
+
+      @media (max-width: 480px) {
+        font-size: 1.3rem;
+      }
+
+      a {
+        color: #fff;
+        border-bottom: 1px solid var(--green);
+        transition: color 0.25s ease;
+        &:hover {
+          color: var(--green);
         }
       }
     }
-  }
 
-  @media (max-width: 960px) {
-    .projects {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  @media (max-width: 740px) {
-    .projects {
-      grid-template-columns: 1fr;
-    }
-
-    .project {
-      padding: 1.5rem 1.2rem;
-
-      header a > img {
-        width: 4rem;
-      }
-
-      h3 {
-        font-size: 1.8rem;
-      }
-
-      p {
-        font-size: 1.4rem;
-      }
+    footer {
+      margin-top: auto;
 
       .tech-list {
-        font-size: 1.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.5rem;
+        font-size: 1.4rem;
+        opacity: 0.8;
+        color: #b0b0b0;
+
+        @media (max-width: 480px) {
+          font-size: 1.2rem;
+        }
       }
     }
   }
