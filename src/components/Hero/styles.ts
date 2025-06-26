@@ -18,19 +18,19 @@ export const Container = styled.section`
 
     h1 {
       font-size: 7rem;
-      font-weight: 700; /* made bold again */
+      font-weight: 700; /* bold */
       color: #fff;
     }
 
     h3 {
       color: var(--green);
       margin: 1rem 0;
-      font-weight: 300;
+      font-weight: 600; /* updated to bold */
     }
 
     p.small-resume {
       margin-bottom: 5rem;
-      font-weight: 300;
+      font-weight: 600; /* updated to bold */
       color: #ccc;
     }
   }
