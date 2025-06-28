@@ -19,7 +19,7 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/EcommercePlatform" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michael-clinton-sudo/redstore-ecommerce-platform" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a href="https://ecom-frontend-platform.vercel.app/" target="_blank" rel="noreferrer">
@@ -54,7 +54,7 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/ChatApp" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michael-clinton-sudo/realtime-chat-app" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a href="https://boisterous-cactus-3e95c4.netlify.app" target="_blank" rel="noreferrer">
@@ -87,7 +87,7 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/BlogApplication" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michael-clinton-sudo/codenest-blog-app" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a href="https://codenest-blog-frontend-tirb.vercel.app/" target="_blank" rel="noreferrer">
@@ -120,7 +120,7 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
               </svg>
               <div className="project-links">
-                <a href="https://github.com/yourusername/redstore-admin" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michael-clinton-sudo/redstore-control-panel" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a href="https://redstore-admin-frontend.vercel.app/" target="_blank" rel="noreferrer">
@@ -156,7 +156,7 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Box-Office" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michael-clinton-sudo/movie-boxoffice" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a href="https://box-office-app-delta.vercel.app/" target="_blank" rel="noreferrer">
@@ -188,7 +188,7 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/TicTacToe" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michael-clinton-sudo/tictactoe-xo" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a href="https://tic-tac-toe-flame-five-50.vercel.app/" target="_blank" rel="noreferrer">
