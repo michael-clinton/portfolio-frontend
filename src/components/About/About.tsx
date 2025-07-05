@@ -27,10 +27,15 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
-            <h3>Education:</h3>
-            <h4>Batchelor of Science (Computer Science)</h4>
-            <p>Naginadas Khandwala College, Mumbai | July 2023 - Present</p>
-            <p>8.95 CGPA</p>
+            <h3>Qualifications:</h3>
+
+            <h4>Master of Science (Computer Science)</h4>
+            <p>SIES College of Arts, Science & Commerce, Mumbai | July 2025</p>
+            <p>8.15 CGPA</p>
+
+            <h4>Bachelor of Science (Computer Science)</h4>
+            <p>Nagindas Khandwala College, Mumbai | October 2020</p>
+            <p>9.2 CGPA</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
