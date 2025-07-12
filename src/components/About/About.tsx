@@ -11,7 +11,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p>
-            Hi there! I'm Michael, an enthusiastic Software Engineer specializing in the MERN stack (MongoDB, Express.js, React, Node.js) and scalable software solutions.
+            Hi there! I'm Michael, an enthusiastic Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js) and scalable software solutions.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={200} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
